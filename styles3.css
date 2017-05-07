@@ -1,0 +1,52 @@
+*{
+	margin:0;
+	padding:0;
+}
+div{
+	margin:50px auto;
+}
+.blok1{
+	width:400px;
+	height:267px;
+	background-image:url('img2.png'),url('img1.jpg');
+	background-repeat:no-repeat;
+	background-position:100% 100% ,100% 100%
+}
+.blok2{
+	width:500px;
+	height:267px;
+	background:#ff0000 url('img1.jpg') 100% 100% no-repeat;
+	background: url('img2.png') 100% 100% no-repeat ,#ff0000 url('img1.jpg') 100% 100% no-repeat;
+}
+.blok3{
+	width:400px;
+	height:267px;
+	background:
+	url('img2.png') 100% 100% no-repeat,
+	url('img2.png') 0% 0% no-repeat,
+	url('img2.png') 50% 50% no-repeat,
+	url('img1.jpg') 50% 50% no-repeat;
+	background-size:200px 50px,10px 20px,50px 50px,auto;
+}
+.blok4{
+	width:400px;
+	height:267px;
+	border:10px solid #000;
+	background:#ff0000 url('img2.png') no-repeat 100% 100%;
+	-webkit-background-clip: content;
+	-webkit-background-clip: content;
+	-webkit-background-clip: content-box;
+	background-clip: content-box;
+	padding:10px;
+}
+.blok5{
+	width:400px;
+	height:267px;
+	border:10px dotted #000;
+	background:#ff0000 url('img2.png') no-repeat 100% 100%;
+	-webkit-background-origin: padding;
+	-webkit-background-origin: padding;
+	-webkit-background-origin: padding-box;
+	background-origin: padding-box;
+	padding:10px;
+}
