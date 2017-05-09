@@ -1,0 +1,34 @@
+*{
+	margin:0;
+	padding:0;
+}
+div{
+	margin:50px auto;
+	width:200px;
+	height:150px;
+}
+.bloc1{
+ 	background-image: linear-gradient(#053232, #04f1f1);
+ }
+ .bloc2{
+ 	background-image: linear-gradient(270deg, #04f1f1, #053232);
+ }
+ .bloc3{
+ 	background-image: linear-gradient(90deg, #04f1f1, #053232);
+ }
+ .bloc4{
+ 	background-image: linear-gradient(45deg, #04f1f1, #053232);
+ }
+ .bloc5{
+ 	background-image: linear-gradient(135deg, #04f1f1, #053232, #04f1f1);
+ }
+ .bloc6{
+ 	height:300px;
+ 	background-image: linear-gradient(135deg, #04f1f1, #053232 30px, #04f1f1);
+ }
+ .bloc7{
+ 	background-image: linear-gradient( #04f1f1, #053232 , #04f1f1, #053232 ,#04f1f1);
+ }
+ .bloc8{
+ 	background-image: repeating-linear-gradient(45deg, #04f1f1 10%, #053232 20%, #04f1f1 30%);
+ }
