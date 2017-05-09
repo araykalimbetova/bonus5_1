@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+}
+div{
+	margin:50px auto;
+	width:300px;
+	height:150px;
+}
+.bloc1{
+ 	background:#04f1f1;
+ 	background:radial-gradient(#053232, #04f1f1);
+ }
+ .bloc2{
+ 	background:#04f1f1;
+ 	background:radial-gradient(circle at 50% 50% , #053232, #04f1f1);
+ }  
+ .bloc3{
+ 	background:#04f1f1;
+ 	background:radial-gradient(ellipse at 50% 50% , #053232, #04f1f1);
+ }  
+ .bloc4{
+ 	background:#04f1f1;
+ 	background:radial-gradient(circle at 50% 50% , #053232 10px, #04f1f1 11px, #04f1f1 30px,#990000 31px);
+ }  
+ .bloc5{
+ 	background:#04f1f1;
+ 	background:radial-gradient(circle contain at 50% 50% , #053232, #04f1f1);
+ }  
+ .bloc6{
+ 	background:#04f1f1;
+ 	background:radial-gradient(circle closest-corner at 20% 20% , #053232, #04f1f1);
+ }  
+ .bloc7{
+ 	background:#04f1f1;
+ 	background:radial-gradient(circle farthest-side at 20% 20% , #053232, #04f1f1);
+ }  
+ .bloc8{
+ 	background:#04f1f1;
+ 	background:radial-gradient(circle farthest-corner at 20% 20% , #053232, #04f1f1);
+ }  
