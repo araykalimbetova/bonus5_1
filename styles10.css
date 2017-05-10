@@ -1,0 +1,28 @@
+.bloc1{
+	margin:50px auto;
+}
+.bloc1 h1 a{
+	text-align:center;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:110px;
+	background:#cdc;
+	color:#676;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #fff, 0px -2px 0px #000;
+}
+.bloc1 h1 a:hover{
+	text-align:center;
+	font-family:Verdana;
+	font-weight:bold;
+	font-size:110px;
+	background:#cdc;
+	color:#676;
+	text-decoration:none;
+	text-shadow:0px 2px 0px #000, 0px -2px 0px #fff;
+}
+.bloc2{
+	width:100px;
+	background:#f00;
+	word-wrap:break-word;
+}
