@@ -1,0 +1,9 @@
+@font-face{
+ 	font-family:'UbuntuLight';
+ 	src: url('UbuntuLight/UbuntuLight.eot'),
+ 	url('UbuntuLight/UbuntuLight.ttf') format('truetype'),
+ 	url('UbuntuLight/UbuntuLight.woff') format('woff');
+ }
+ .bloc1 p{
+ 	font-family:'UbuntuLight';
+ } 
