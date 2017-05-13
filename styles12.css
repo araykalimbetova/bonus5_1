@@ -1,0 +1,47 @@
+*{
+	padding:0; margin:0;
+}
+body{
+	font:13px Tahoma; line-height:1.3;
+}
+a{
+	color:#666;
+}
+a:hover{
+	text-decoration:none;
+}
+p{
+	margin-bottom:5px;
+}
+.main{
+	margin:50px auto; width:500px; 
+}
+	a[href^='mailto:']{
+		background:url(ico-mail.png) left 5px no-repeat;
+		padding:2px 0 2px 23px;
+	}
+	a[href^='ftp://']{
+		background:url(ico-ftp.png) left 5px no-repeat;
+		padding:2px 0 2px 23px;
+	}
+	a[href$='.pdf']{
+		background:url(ico-pdf.gif) left 3px no-repeat;
+		padding:2px 0 2px 23px;
+	}
+	a[href$='.docx']{
+		background:url(ico-doc.gif) left 3px no-repeat;
+		padding:2px 0 2px 23px;
+	}
+	a[href$='.zip']{
+		background:url(ico-rar.gif) left 3px no-repeat;
+		padding:2px 0 2px 23px;
+	}
+	img[title*="ZHANAY"]{
+		padding:10px;
+		border:2px solid #F00;
+	}
+	a[href^='ftp://'][href$='.pdf']{
+		background:url(ico-pdf.gif) 23px 3px no-repeat,
+		url(ico-ftp.png) left 5px no-repeat;
+		padding:2px 0 2px 48px;
+	}
