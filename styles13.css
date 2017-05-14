@@ -1,0 +1,34 @@
+*{
+	padding:0; margin:0;
+}
+div{
+	width:300px;
+	margin:30px auto; 
+	height:80px;
+	font:30px Arial, Helvetica, sans-serif; 
+	border:2px solid #ff0000;
+	line-height:1;
+	padding:20px 0 0 0; 
+	text-align:center; 
+	background:#036;
+	color:#FFF;
+}
+.ex1{
+	transform:rotate(20deg);
+	transform-origin: 50% 100%;
+}
+.ex2{
+	transform:translate(20px, 0px);
+}
+.ex3{
+	transform:skew(0deg, 0deg);
+}
+.ex4{
+	transform:scale(-1, 1);
+}
+.ex5{
+	transform:rotate(45deg) scale(0.75) translate(75%, -100%);
+}
+.ex6{
+	transform:matrix(1.5, -0.5, 0, 0.5, 1, 1);
+}
